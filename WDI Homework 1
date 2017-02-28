@@ -1,0 +1,226 @@
+Last login: Mon Feb 27 14:51:21 on ttys000
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.12.0
+Homebrew 1.1.10 Homebrew/homebrew-core (git revision 28c4; last commit 2017-02-27)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]
+node v7.6.0
+psql (PostgreSQL) 9.6.2
+------------------------------------------
+type unwelcome to remove this message
+ronaksobti ~
+$ cd
+ronaksobti ~
+$ pwd
+/Users/ronaksobti
+ronaksobti ~
+$ ls
+ 2
+ Applications/
+'Blackmagic Pocket Cinema Camera_1_2027-12-20_1953_C0042_000003.psd'
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+'Komplete Kontrol.log'
+ Library/
+ Movies/
+ Music/
+ Pictures/
+ Public/
+ ScanApp.log
+ Untitled.txt
+ code/
+ config.log
+ dinder/
+ funny_things/
+ wdi/
+ronaksobti ~
+$ cd Desktop/
+ronaksobti ~/Desktop
+$ mv cli_golf-master/
+gmv: missing destination file operand after 'cli_golf-master/'
+Try 'gmv --help' for more information.
+ronaksobti ~/Desktop
+$ mv cli_golf-master/ ./wdi
+'cli_golf-master/' -> './wdi'
+ronaksobti ~/Desktop
+$ pwd
+/Users/ronaksobti/Desktop
+ronaksobti ~/Desktop
+$ pwd
+/Users/ronaksobti/Desktop
+ronaksobti ~/Desktop
+$ cd
+ronaksobti ~
+$ cd
+ronaksobti ~
+$ pwd
+/Users/ronaksobti
+ronaksobti ~
+$ cd Desktop/
+ronaksobti ~/Desktop
+$ mv wdi ./wdi/homework
+gmv: cannot move 'wdi' to a subdirectory of itself, './wdi/homework'
+ronaksobti ~/Desktop
+$ mv cligolf/ ..wdi/homework
+gmv: cannot move 'cligolf/' to '..wdi/homework': No such file or directory
+ronaksobti ~/Desktop
+$ mv cligolf/ ./wdi
+'cligolf/' -> './wdi'
+ronaksobti ~/Desktop
+$ pwd
+/Users/ronaksobti/Desktop
+ronaksobti ~/Desktop
+$ mv wdi/ CliGolf
+'wdi/' -> 'CliGolf'
+ronaksobti ~/Desktop
+$ mv CliGolf/ ../wdi
+'CliGolf/' -> '../wdi/CliGolf'
+ronaksobti ~/Desktop
+$ pwd
+/Users/ronaksobti/Desktop
+ronaksobti ~/Desktop
+$ cd ..
+ronaksobti ~
+$ pwd
+/Users/ronaksobti
+ronaksobti ~
+$ cd wdi
+ronaksobti ~/wdi
+$ ls
+CliGolf/  class/  homework/  projects/
+ronaksobti ~/wdi
+$ mv CliGolf/ /homework
+gmv: cannot move 'CliGolf/' to '/homework': Permission denied
+ronaksobti ~/wdi
+$ mv -r CliGolf/ /homework
+gmv: invalid option -- 'r'
+Try 'gmv --help' for more information.
+ronaksobti ~/wdi
+$ pwd
+/Users/ronaksobti/wdi
+ronaksobti ~/wdi
+$ ls
+CliGolf/  class/  homework/  projects/
+ronaksobti ~/wdi
+$ cd homework/
+ronaksobti ~/wdi/homework
+$ ls
+CliGolf/
+ronaksobti ~/wdi/homework
+$ cd CliGolf/
+ronaksobti ~/wdi/homework/CliGolf
+$ cd kitchen/
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ mkdir fridge
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ mkdir pantry
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ mkdir sink
+gmkdir: created directory 'sink'
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ mkdir trashcan
+gmkdir: created directory 'trashcan'
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ pwd
+/Users/ronaksobti/wdi/homework/CliGolf/kitchen
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ cd fridge/
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge
+$ mkdir crisper-drawer
+gmkdir: created directory 'crisper-drawer'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge
+$ mv trashcan/ ../
+'trashcan/' -> '../trashcan'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge
+$ ..
+-bash: ..: command not found
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge
+$ cd ..
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ mv cans.txt pantry/
+'cans.txt' -> 'pantry/cans.txt'
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ pwd
+/Users/ronaksobti/wdi/homework/CliGolf/kitchen
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ cd trashcan/
+ronaksobti ~/wdi/homework/CliGolf/kitchen/trashcan
+$ mv sink/ ../
+'sink/' -> '../sink'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/trashcan
+$ mv chicken-bones.txt ../trashcan/
+gmv: 'chicken-bones.txt' and '../trashcan/chicken-bones.txt' are the same file
+ronaksobti ~/wdi/homework/CliGolf/kitchen/trashcan
+$ cd ..
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ cd sink/
+ronaksobti ~/wdi/homework/CliGolf/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+ronaksobti ~/wdi/homework/CliGolf/kitchen/sink
+$ rm delete-me.txt 
+removed 'delete-me.txt'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/sink
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/sink
+$ mv clean-dishes.txt drying-rack/
+'clean-dishes.txt' -> 'drying-rack/clean-dishes.txt'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/sink
+$ cd ..
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ cd pantry/
+ronaksobti ~/wdi/homework/CliGolf/kitchen/pantry
+$ ls
+cans.txt  cereal.txt  crisper-drawer/
+ronaksobti ~/wdi/homework/CliGolf/kitchen/pantry
+$ mv crisper-drawer/ ../fridge/
+'crisper-drawer/' -> '../fridge/crisper-drawer'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+ronaksobti ~/wdi/homework/CliGolf/kitchen/pantry
+$ cd ../
+ronaksobti ~/wdi/homework/CliGolf/kitchen
+$ cd fridge/
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge
+$ rm milk.txt 
+removed 'milk.txt'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge
+$ rm diapers.txt 
+removed 'diapers.txt'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge
+$ cd crisper-drawer/
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge/crisper-drawer
+$ ls
+lettuce.txt
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge/crisper-drawer
+$ rm lettuce.txt 
+removed 'lettuce.txt'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge/crisper-drawer
+$ touch lettuce.txt
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge/crisper-drawer
+$ cd ..
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge
+$ cd freezer/
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge/freezer
+$ ls
+couch.txt  frozenpeas.txt  icecream.txt
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge/freezer
+$ rm couch.txt 
+removed 'couch.txt'
+ronaksobti ~/wdi/homework/CliGolf/kitchen/fridge/freezer
+$ 
